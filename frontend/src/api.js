@@ -1,5 +1,5 @@
 const API_BASE = import.meta.env.PROD 
-  ? 'postgresql://restaurant_db_jqos_user:gzQwSPDoMQ9LD1q2sHAybllWzA1YytDa@dpg-d44c87be5dus73b13220-a.ohio-postgres.render.com/restaurant_db_jqos'
+  ? 'https://restaurant-analytics.onrender.com/'
   : '/api';
 
 const buildQueryString = (params) => {
